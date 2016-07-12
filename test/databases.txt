@@ -1,0 +1,10 @@
+create table Information(
+  `id` int(11) NOT NULL,
+  `name` varchar(11) NOT NULL,
+  `picture` varchar(30) NOT NULL,
+  `Release date` varchar(30) NOT NULL,
+     PRIMARY KEY (`id`)
+     
+     
+INSERT INTO movies(Release date,name,picture) VALUES 
+('2016/07/01','(數位 日)哆啦A夢新大雄的日本誕生','images/a.jpg')     
