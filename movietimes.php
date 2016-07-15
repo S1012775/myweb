@@ -1,23 +1,4 @@
-<?php
-header("content-type: text/html; charset=utf-8");
-
-// 1. 初始設定
-$ch = curl_init();
-// 2. 設定 / 調整參數
-curl_setopt($ch, CURLOPT_URL, "http://www.atmovies.com.tw/showtime/t07704/a07/");
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($ch, CURLOPT_HEADER, 0);
-// 3. 執行，取回 response 結果
-$pageContent = curl_exec($ch);
-// 4. 關閉與釋放資源
-curl_close($ch);
-$doc = new DOMDocument();
-libxml_use_internal_errors(true);
-$doc->loadHTML($pageContent);
-
-$xpath = new DOMXPath($doc);
-$entries = $xpath->query("//*[@id='theaterShowtimeTable']");
-?>
+<?php require("movietimeslist.php");?>
 <!--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -90,35 +71,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-12 ">
-				<div class="clearfix"><h5>場次時間表 <?php	echo  date("Y-m-d") . "<br>";?></h5></div>
+				<div class="clearfix"><h5>場次時間表 <?php	echo  $getdate. "<br>";?></h5></div>
 				<h2 class="style">Movie Times</h2>
-		<div >
-
-<table >
-<thead>
-<tr>
-				<?php foreach ($entries as $entry) 
-					{
-					     $title3 = $xpath->query("./li[2]/ul[1]/li[1]/a/img/@src", $entry);
-					    $title1 = $xpath->query("./li[1]/a", $entry);
-					    $title4 = $xpath->query("./li[2]/ul[1]/li[2]", $entry);
-					    $title2 = $xpath->query("./li[2]/ul[2]", $entry);
-				?>
-				<th class="text-left"><?php echo  $title1->item(0)->nodeValue . "<br>";?></th>
+		<div >	<?php   while($row= mysql_fetch_assoc($result)){?>
+			<table >
+			
+			<thead>
+			<tr>
+				<th class="text-left"><?php echo $row['name'] ?></th>
 				<th></th>
-				
-				</tr>
-				</thead>
+			</tr>
+			</thead>
 				<tbody class="table-hover">
 				<tr>
-				<td class="text-left"><?php echo "<img src= '". $title3->item(0)->nodeValue . "' style='height:200px;'/>"; ?></td>
-				<td class="text-left"><?php echo  $title2->item(0)->nodeValue . "<br>";?>
-				      <p><?php echo  $title4->item(0)->nodeValue . "<br>";?></p></td>
+				<td class="text-left">
+					<?php echo "<img src= '". $row['picture'] . "' style='height:200px;'/>"; ?>
+					<!--<?php echo $row['picture'] ?>-->
+					</td>
+				<td class="text-left"><?php echo $row['time'] ?>
+				      <p><?php echo $row['filmtime'] ?></p></td>
 				</tr>
-				<?php }?>
+				
 				</tbody>
-				</table>	
-						</div>
+				
+				</table>
+		<?php }?></div>
 			
 				<div class="news_letter"></div>
 			</div>

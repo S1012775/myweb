@@ -1,33 +1,4 @@
-<?php
-header("content-type: text/html; charset=utf-8");
-
-// 1. 初始設定
-$ch = curl_init();
-
-// 2. 設定 / 調整參數
-curl_setopt($ch, CURLOPT_URL, "http://www.u-movie.com.tw/page.php?ver=tw&page_type=series&portal=cinema&portal=cinema&ver=tw");
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($ch, CURLOPT_HEADER, 0);
-
-// 3. 執行，取回 response 結果
-$pageContent = curl_exec($ch);
-
-// 4. 關閉與釋放資源
-curl_close($ch);
-
-$doc = new DOMDocument();
-libxml_use_internal_errors(true);
-$doc->loadHTML($pageContent);
-
-$xpath = new DOMXPath($doc);
-$entries = $xpath->query("//*[@id='page_wrapper']/section/div/div/div[1]/ul/li");
-// foreach ($entries as $entry) 
-// {
-//     $title = $xpath->query("./div/div/h3", $entry);
-   
-// }
-
-?>
+<?php  require("movielist.php");?>
 <!--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -108,23 +79,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="main row">
  	 	<h2 class="style">檔期電影</h2>
  	 	 <div class="grids_of_4 row" style="height:'600px'">
-	 	 	<?php   
-	 	 				foreach ($entries as $entry) {
-						    $title1 = $xpath->query("./div/div/h3", $entry);
-						    $title2 = $xpath->query("./div/div/p", $entry);
-						    $title3 = $xpath->query("./div/span/a/img/@src", $entry);
-    		?>
+	 	 	<?php   while($row= mysql_fetch_assoc($result)){?>
 				<div class="col-md-4 images_1_of_3">
-				
-					<div class="fancyDemo" text-overflow= "ellipsis";>
-						<a rel="group" title="" ><?php echo "<img src= '". $title3->item(0)->nodeValue . "' style='height:400px;'/>"; ?></a>
+				 
+					<div class="fancyDemo";>
+						<a rel="group" title="" ><?php echo "<img src= '". $row['picture'] . "' style='height:400px;'/>"; ?></a>
+						 <!--// echo "<img src= '". $title3->item(0)->nodeValue . "' style='height:400px;'/>"; -->
 					</div>
-					 <h4><a href="single-page.php" text-overflow=" ellipsis; "><?php  echo $title1->item(0)->nodeValue." <br> "  ; ?></a></h4>
-					  <h6><a href="single-page.php"><?php  echo  $title2->item(0)->nodeValue. "<br>" ; ?></a> </h6>
-					 
+					 <h4><a href="single-page.php"><?php echo $row['name'] ?></a></h4>
+					  <h6><a href="single-page.php"><?php echo $row['enname'] ?> </a> </h6>
+					
 					 
 				</div>
-				<?php }?>
+				 <?php }?>
 		</div>
 			</div>
 </div><!-- end main -->
