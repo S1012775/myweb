@@ -1,4 +1,4 @@
-<?php require("movietimeslist.php");?>
+<?php require("../myweb/php/movietimeslist.php");?>
 <!--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -9,6 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 	<meta charset="UTF-8">
+	<script src="selectuser.js"></script>
 <title>UniversalCinema-movietimes</title>
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/style.css">
@@ -73,7 +74,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-12 ">
 				<div class="clearfix"><h5>場次時間表 <?php	echo  $getdate. "<br>";?></h5></div>
 				<h2 class="style">Movie Times</h2>
-		<div >	<?php   while($row= mysql_fetch_assoc($result)){?>
+				
+				<form>
+   
+            <select name="users" onchange="showUser(this.value)">
+              <option value="">請選擇電影</option>
+              <option value=""><?php
+                    while ($row = mysql_fetch_assoc($result)) {
+                        
+                          echo '<option value="' . $row['id'] . '">' . $row['name'] . '</option>' . "\n";
+                     }?></option>
+              
+              </select>
+            </form>
+            <br>
+            <div id="txtHint"><b>
+            	
+            	<?php   while($row= mysql_fetch_assoc($result)){?>
 			<table >
 			
 			<thead>
@@ -95,7 +112,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</tbody>
 				
 				</table>
-		<?php }?></div>
+		<?php }?>
+            	
+            	
+            	
+            </b></div>
+				
+				
+				
+		
 			
 				<div class="news_letter"></div>
 			</div>

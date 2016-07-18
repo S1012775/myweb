@@ -20,8 +20,10 @@ libxml_use_internal_errors(true);
 $doc->loadHTML($pageContent);
 
 $xpath = new DOMXPath($doc);
-$entries = $xpath->query("/html/body/section/div/div/div/div");
+$entries = $xpath->query("/html/body");
 
-// /html/body/section/div/div/div/div
-///html/body/section/div/div/div/div/div[4]/div/div[1]/ul
+
+
+
+
 ?>  

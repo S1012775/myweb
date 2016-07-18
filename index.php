@@ -1,6 +1,13 @@
 
-<?php require("indexSM.php");
+<?php 
+require("../myweb/php/indexSM.php");
 include("indexslide.php");
+
+
+
+
+
+
 ?>
 
 <!--A Design by W3layouts
@@ -18,6 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/button.css">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!--[if lt IE 9]>
      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -158,6 +166,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<div class="row  footer">
 			<div class="copy text-center">
+			<div><a href="manage/login.php">	<button class ="allbutton"type="button" name="login">manage only</button></a>
+			
+			</div>
 				<p class="link"><span>&#169; All rights reserved | Template by&nbsp;<a href="http://w3layouts.com/"> W3Layouts</a></span></p>
 				<a href="#home" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
 			</div>

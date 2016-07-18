@@ -19,27 +19,26 @@ th {text-align: left;}
 <body>
 
 <?php
-echo $_GET["q"];
-require ("config.php");
-header("content-type: text/html; charset=utf-8");
-$link = mysql_connect ( $dbhost, $dbuser, $dbpass ) or die ( mysql_error () );
+
+require ("../myweb/php/config.php");
+
 $result = mysql_query ( "set names utf8", $link );
 $q=$_GET["q"];
 $sql="SELECT * FROM movietimes WHERE id = '".$q."'";
 $result = mysql_query($sql,$link);
 echo "<table>
 <tr>
-<th>name</th>
-<th>time</th>
+<th>電影名稱</th>
+<th>電影時間</th>
 </tr>";
 
-if($result === FALSE) { 
-    die(mysql_error()); // TODO: better error handling
-}
+// if($result === FALSE) { 
+//     die(mysql_error()); // TODO: better error handling
+// }
 
 while($row = mysql_fetch_array($result)) {
     
-    echo "<td>" . $row['name'] . "</td>";
+    echo "<td>" . $row['name'] ."<br>"."<img src= '". $row['picture'] . "' style='height:200px;'/>". "</td>";
     echo "<td>" . $row['time'] . "</td>";
     
     

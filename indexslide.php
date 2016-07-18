@@ -107,16 +107,16 @@
     </style>
     
     <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb03" style="bottom:10px;right:10px;">
+    <!--    <div data-u="navigator" class="jssorb03" style="bottom:10px;right:10px;">-->
             <!-- bullet navigator item prototype -->
-            <div data-u="prototype" style="width:21px;height:21px;">
-                <div data-u="numbertemplate"></div>
-            </div>
-        </div>
+    <!--        <div data-u="prototype" style="width:21px;height:21px;">-->
+    <!--            <div data-u="numbertemplate"></div>-->
+    <!--        </div>-->
+    <!--    </div>-->
         <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora03l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora03r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
-    </div>
+    <!--    <span data-u="arrowleft" class="jssora03l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>-->
+    <!--    <span data-u="arrowright" class="jssora03r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>-->
+    <!--</div>-->
     <script>
         jssor_1_slider_init();
     </script>

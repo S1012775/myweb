@@ -46,6 +46,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!----font-Awesome----->
 </head>
 <body>
+	
 <div class="header_bg" id="home"><!-- start header -->
 <div class="container">
 	<div class="row header text-center specials">
@@ -71,18 +72,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<div class="main row">
 			<?php   foreach ($entries as $entry) 
+			
 {
-    $title1 = $xpath->query("./div[1]", $entry);
-       
-    $title2 = $xpath->query(".", $entry);
-       
-    //   echo "<img src= '". $title->item(0)->nodeValue . "'/>";
+    $title1 = $xpath->query("./section/div/div/div/div/div[1]", $entry);
+    $title2 = $xpath->query("./section/div/div/div/div", $entry);
+    $title3 = $xpath->query("./@src", $entry);  
+    //*[@id="page_header"]/div[2]/div[1]
 ?>
 					
 			<h2 class="style"><?php  echo  $title1->item(0)->nodeValue . "<br>";?></h2>
 			<div class="details row">
 				<div class="col-md-6">
-					<img src="images/det_pic.jpg" alt="" class="img-responsive"/>
+				<?php echo "<img src= '". $title3->item(0)->nodeValue . "'/>"; ?>
+				<img src="http://www.u-movie.com.tw/qoo/2258_youtube.jpg)"></img>
+				
 				</div>
 				<div class="col-md-6">
 					<p class="para"> <?php echo  $title2->item(0)->nodeValue . "<br>"; ?></p>

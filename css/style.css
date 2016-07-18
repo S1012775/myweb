@@ -12,6 +12,7 @@ body {
 	font-family: 'open_sansregular';
 	background:#ffffff;
 	font-size: 100%;
+	
 }
 /* start header */
 .header_bg{
@@ -1714,7 +1715,7 @@ div.table-title {
 }
 
 .table-title h3 {
-   color: #fafafa;
+   color: #1bbc9d;
    font-size: 30px;
    font-weight: 400;
    font-style:normal;
@@ -1732,9 +1733,9 @@ div.table-title {
   border-collapse: collapse;
   height: 320px;
   margin: auto;
-  max-width: 600px;
+  max-width: 100%;
   padding:5px;
-  width: 1000px;
+  width: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   animation: float 5s infinite;
 }
@@ -1839,3 +1840,7 @@ td.text-center {
 td.text-right {
   text-align: right;
 }
+
+
+
+
