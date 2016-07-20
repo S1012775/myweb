@@ -29,7 +29,7 @@ $result = mysql_query($sql,$link);
 echo "<table>
 <tr>
 <th>電影名稱</th>
-<th>電影時間</th>
+<th>電影時間 </th>
 </tr>";
 
 // if($result === FALSE) { 
@@ -37,9 +37,10 @@ echo "<table>
 // }
 
 while($row = mysql_fetch_array($result)) {
-    
+    $out=$row['time'];
+	$output=explode("其他戲院",$out);
     echo "<td>" . $row['name'] ."<br>"."<img src= '". $row['picture'] . "' style='height:200px;'/>". "</td>";
-    echo "<td>" . $row['time'] . "</td>";
+    echo "<td>" . $output[0] .  $row['filmtime'] . "</td>";
     
     
 }

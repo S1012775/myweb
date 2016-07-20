@@ -133,7 +133,7 @@
 				<ul class="pricing-wrapper">
 					<li data-type="monthly" class="is-visible">
 						<header class="pricing-header">
-							<h2>愛 心 票</h2>
+							<h2>愛心票</h2>
 							<div class="price">
 								<span class="currency">$</span>
 								<span class="value">110</span>
@@ -150,7 +150,7 @@
 					</li>
 					<li data-type="yearly" class="is-hidden">
 						<header class="pricing-header">
-							<h2>愛 心 票</h2>
+							<h2>愛心票</h2>
 							<div class="price">
 								<span class="currency">$</span>
 								<span class="value">140</span>

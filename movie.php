@@ -86,8 +86,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a rel="group" title="" ><?php echo "<img src= '". $row['picture'] . "' style='height:400px;'/>"; ?></a>
 						 <!--// echo "<img src= '". $title3->item(0)->nodeValue . "' style='height:400px;'/>"; -->
 					</div>
-					 <h4><a href="single-page.php"><?php echo $row['name'] ?></a></h4>
-					  <h6><a href="single-page.php"><?php echo $row['enname'] ?> </a> </h6>
+					 <h3><?php echo $row['name'] ?></h3>
+					  <h6><?php echo $row['enname'] ?></h6>
 					
 					 
 				</div>

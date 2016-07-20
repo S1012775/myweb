@@ -102,11 +102,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<tbody class="table-hover">
 				<tr>
 				<td class="text-left">
-					<?php echo "<img src= '". $row['picture'] . "' style='height:200px;'/>"; ?>
+					<?php
+					$out=$row['time'];
+					$output=explode("其他戲院",$out);
+					echo "<img src= '". $row['picture'] . "' style='height:200px;'/>"; ?>
 					<!--<?php echo $row['picture'] ?>-->
 					</td>
-				<td class="text-left"><?php echo $row['time'] ?>
-				      <p><?php echo $row['filmtime'] ?></p></td>
+				<td class="text-left"><p><?php echo $output[0] ?>
+				      </p></td>
 				</tr>
 				
 				</tbody>

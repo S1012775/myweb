@@ -1,4 +1,4 @@
-<?php require("single-pageIn.php");?>
+<?php require("../myweb/php/single-pageIn.php");?>
 
 <!--A Design by W3layouts
 Author: W3layout
@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 	<meta charset="UTF-8">
-<title>Hexa a portfolio bootstrap Website Template | Single-Page :: w3layouts</title>
+<title>UniversalCinema-MovieIntroduction</title>
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -68,27 +68,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </div>
 </div>
+
 <div class="blog"><!-- start main -->
+		<div class="container"><img src="http://www.u-movie.com.tw/qoo/2258_youtube.jpg"></img></div>
 	<div class="container">
+		
 		<div class="main row">
-			<?php   foreach ($entries as $entry) 
 			
-{
-    $title1 = $xpath->query("./section/div/div/div/div/div[1]", $entry);
-    $title2 = $xpath->query("./section/div/div/div/div", $entry);
-    $title3 = $xpath->query("./@src", $entry);  
-    //*[@id="page_header"]/div[2]/div[1]
-?>
-					
-			<h2 class="style"><?php  echo  $title1->item(0)->nodeValue . "<br>";?></h2>
+				<?php   while($row= mysql_fetch_assoc($result)){
+					$out=$row['content'];
+					$output=explode("劇情簡介",$out);
+					?>
+			<h2 class="style"><?php echo $row['name'] ?></h2>
 			<div class="details row">
 				<div class="col-md-6">
-				<?php echo "<img src= '". $title3->item(0)->nodeValue . "'/>"; ?>
-				<img src="http://www.u-movie.com.tw/qoo/2258_youtube.jpg)"></img>
-				
+					<p class="para"><?php echo $row['time1'] ?></p>
+					<p class="para"><?php echo $row['time2'] ?></p>
 				</div>
 				<div class="col-md-6">
-					<p class="para"> <?php echo  $title2->item(0)->nodeValue . "<br>"; ?></p>
+					<p class="para"> <?php echo $output[1] ?></p>
 					<p class="para"></p>
 				</div>
 				<div class="clearfix"></div>

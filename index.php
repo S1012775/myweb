@@ -3,11 +3,6 @@
 require("../myweb/php/indexSM.php");
 include("indexslide.php");
 
-
-
-
-
-
 ?>
 
 <!--A Design by W3layouts
@@ -23,6 +18,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta charset="UTF-8">
 <title>UniversalCinema-HOME</title>
 <!-- Bootstrap -->
+<link rel="icon" type="image/png" href="images/icon.png" sizes="16x16">
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="css/button.css">
@@ -170,6 +166,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			
 			</div>
 				<p class="link"><span>&#169; All rights reserved | Template by&nbsp;<a href="http://w3layouts.com/"> W3Layouts</a></span></p>
+				<p class="link"><span>資料來源:<a href="http://www.u-movie.com.tw/"> 環球影城</a><a href="http://www.atmovies.com.tw/home/">  開眼電影網</a></span></p>
 				<a href="#home" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
 			</div>
 		</div>
