@@ -2,26 +2,24 @@
 session_start();
 require ("../php/config.php");
 
-
-if (isset($_POST['username']) and isset($_POST['password'])){
+if(isset($_POST['login'])) {
 $username = $_POST['username'];
-$password = $_POST['password'];
-$query = "SELECT * FROM `management` WHERE username='$username' and password='$password'";
-$result = mysql_query($query) or die(mysql_error());
-$count = mysql_num_rows($result);
-if ($count == 1){
-$_SESSION['username'] = $username;
-}else{
-  $wrong="Wrong username or password!!";
-  }
+$password = $_POST['password'];  
+$result = mysql_query("SELECT * FROM `management` WHERE username='$username' and password='$password'");
+$row  = mysql_fetch_array($result);
+if(is_array($row)) {
+$_SESSION["username"] = $row['username'];
+$_SESSION["password"] = $row['password'];
+} else {
+$wrong = "Invalid Username or Password!";
 }
-if (isset($_SESSION['username'])){
-$username = $_SESSION['username'];
-header("Location: message.php");
-
-}else{
 
 }
+if(isset($_SESSION["username"])) {
+
+  header("Location:message.php");
+}
+
 
 ?>
 <!DOCTYPE html>
@@ -40,7 +38,7 @@ header("Location: message.php");
     <div class="login">
     <h1>Login</h1>
 
-    <form class="form" method="post" action="#">
+    <form class="form" method="post">
 
       <p class="field">
         <input type="text" name="username" placeholder="Username" required/>
@@ -52,7 +50,7 @@ header("Location: message.php");
         <i class="fa fa-lock"></i>
       </p>
 
-      <p class="submit"><input type="submit" name="sent" value="Login"></p>
+      <p class="submit"><input type="submit" name="login" value="Login"></p>
         <p><?php echo $wrong?></p>
 
     </form>

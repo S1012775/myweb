@@ -1,16 +1,9 @@
-
 <?php 
 require("../myweb/php/indexSM.php");
-include("indexslide.php");
-
+require("php/indexslide.php");
+$selectindex =selectindex();
+ indexMessage();
 ?>
-
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -18,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta charset="UTF-8">
 <title>UniversalCinema-HOME</title>
 <!-- Bootstrap -->
-<link rel="icon" type="image/png" href="images/icon.png" sizes="16x16">
+<link rel="icon" type="image/png" href="images/icon.png" sizes="48x48">
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="css/button.css">
@@ -63,31 +56,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="row slider">
 		<div class="wmuSlider example1"><!-- start wmuSlider example1 -->
 			   <div class="kl-title-block clearfix text-left tbk-symbol-- tbk-icon-pos--after-title pbottom-20">
-			   	<div><p><br></p><p><br></p></div>
+			   	
                    	<h2 class="style">熱映中</h2>
-                   	<div><p><br></p><p><br></p><p><br></p></div>
+                
 				</div>
-			   <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 900px; height: 350px; overflow: hidden; visibility: hidden;">
+	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 900px; height: 350px; overflow: hidden; visibility: hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
             <div style="position:absolute;display:block;background:url('imas/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
-        	 
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 900px; height: 350px; overflow: hidden;">
-           
-        <?php   while($row= mysql_fetch_assoc($showphoto)){?>
+        <?php  
         
+       foreach ($selectindex as $value) {
+        ?>
             <div style="height:150px;">
-                  <?php echo "<img src= '". $row['photo'] . "' style='height:350px;'/>"; ?>
-
+                 <?php echo $value;?>
             </div>
-            <?php }?> 
+        <?php }?> 
             <a data-u="add" href="http://www.jssor.com" style="display:none"></a>
-                   
         </div>
-        
-        
         <!-- Bullet Navigator -->
         <div data-u="navigator" class="jssorb03" style="bottom:10px;right:10px;">
             <!-- bullet navigator item prototype -->
@@ -114,23 +103,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         jssor_1_slider_init();
     </script>
 
-<div><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p></div>
+
 <div class="main_bg"  id="about"><!-- start about us -->
 <div >
 	<div class="row about">
-		<!--<div class="col-md-3 about_img">-->
-		<!--	<img src="images/cinema.jpg" alt="" class="responsive"/>-->
-		<!--</div>-->
 		<div class="col-md-12 about_text">
 			<h3>我們在哪?</h3>
 					<h4>高雄市苓雅區大順三路108號 <br>07-722-0066</h4>
 			<div >
+			<!--google 地圖-->
 			<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3bN-Wb8EbjQRsbYBUxnfI-k&key=AIzaSyABzEc8UloW9JiNeR6F9n70iR0p818dCIs" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="col-md-9 about_text">
 			<h3>票價資訊</h3>
-			<?php include 'tickets.php';?>
+			<?php include 'php/tickets.php';?>
 			<div >
 			
 			</div>

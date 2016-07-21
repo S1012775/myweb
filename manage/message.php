@@ -1,4 +1,5 @@
 <?php
+session_start();
 require ("../php/config.php");
 $commandText = <<<SqlQuery
 select id,mesname,mesemail,messubject,mescontent,
@@ -7,11 +8,11 @@ select id,mesname,mesemail,messubject,mescontent,
 SqlQuery;
 $result = mysql_query ( $commandText, $link );
 
- session_start();
+ 
 if (!isset($_SESSION["userName"])){
     
-  	header("location: login.php");   
-  	exit();
+//   	header("location: login.php");   
+//   	exit();
   }
 
 

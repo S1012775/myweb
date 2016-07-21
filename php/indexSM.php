@@ -1,11 +1,14 @@
 <?php
-require ("config.php");
-$commandText = <<<SqlQuery
+header("content-type: text/html; charset=utf-8");   
+
+function  indexMessage(){
+    require ("config.php");
+$selectmessage = <<<SqlQuery
 select id, mesname, mesemail,messubject,mescontent,
   (select count(*) from message where id = message.id) 
   from message
 SqlQuery;
-$result = mysql_query ( $commandText, $link );
+$messageresult = mysql_query ( $selectmessage, $link );
 if (isset($_POST["submit"])){
 $mesname=$_POST['mesname'];
 $mesemail=$_POST['mesemail'];
@@ -21,16 +24,26 @@ echo "<script>alert('資料送出');</script>";
 }
 
 
-$resultPhoto = <<<SqlQuery
+    
+}
+
+function selectindex(){
+    require ("config.php");
+    $resultPhoto = <<<SqlQuery
 select id, photo,
   (select count(*) from indexPhoto where id = indexPhoto.id) 
   from indexPhoto
 SqlQuery;
-$showphoto = mysql_query ($resultPhoto, $link );
+ $selectindex = mysql_query ($resultPhoto, $link );
+        while($row= mysql_fetch_assoc($selectindex)){
+        $arrayphoto[]= "<img src= '". $row['photo'] . "' style='height:350px;'/>";
+        
+        }
+        return $arrayphoto;
+}
 
-header("content-type: text/html; charset=utf-8");
-
-// 1. 初始設定
+function indexSlide(){
+    // 1. 初始設定
 $ch = curl_init();
 $x=
 // 2. 設定 / 調整參數
@@ -65,4 +78,6 @@ if($getdate== $showdate['updatetime']){
 		// echo "<img src= '". $title->item(0)->nodeValue . "'class='responsive' style='height:350px;'/>";
 				}
 }
+}
+
 ?>  
