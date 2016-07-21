@@ -1,4 +1,7 @@
-<?php  require("../myweb/php/movielist.php");?>
+<?php  
+require("../myweb/php/movielist.php");
+$selectmoive =selectmoive();
+?>
 <!--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -79,15 +82,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="main row">
  	 	<h2 class="style">檔期電影</h2>
  	 	 <div class="grids_of_4 row" style="height:'600px'">
-	 	 	<?php   while($row= mysql_fetch_assoc($result)){?>
+	 	 	<?php   foreach ($selectmoive as $value){?>
 				<div class="col-md-4 images_1_of_3">
 				 
 					<div class="fancyDemo";>
-						<a rel="group" title="" ><?php echo "<img src= '". $row['picture'] . "' style='height:400px;'/>"; ?></a>
+						<a rel="group" title="" ><?php echo $value[0]; ?></a>
 						 <!--// echo "<img src= '". $title3->item(0)->nodeValue . "' style='height:400px;'/>"; -->
 					</div>
-					 <h3><?php echo $row['name'] ?></h3>
-					  <h6><?php echo $row['enname'] ?></h6>
+					 <h3><?php echo $value[1] ?></h3>
+					  <h6><?php echo  $value[2] ?></h6>
 					
 					 
 				</div>

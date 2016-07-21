@@ -26,6 +26,7 @@ $result = mysql_query ( "set names utf8", $link );
 $q=$_GET["q"];
 $sql="SELECT * FROM movietimes WHERE id = '".$q."'";
 $result = mysql_query($sql,$link);
+
 echo "<table>
 <tr>
 <th>電影名稱</th>

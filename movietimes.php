@@ -1,4 +1,6 @@
-<?php require("../myweb/php/movietimeslist.php");?>
+<?php require("../myweb/php/movietimeslist.php");
+$selectmoivetimes =selectmoivetimes();
+?>
 <!--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -80,46 +82,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <select name="users" onchange="showUser(this.value)">
               <option value="">請選擇電影</option>
               <option value=""><?php
-                    while ($row = mysql_fetch_assoc($result)) {
+                    foreach ($selectmoivetimes as $value){
                         
-                          echo '<option value="' . $row['id'] . '">' . $row['name'] . '</option>' . "\n";
+                          echo '<option value="' .$value[0]. '">' . $value[1]. '</option>' . "\n";
                      }?></option>
               
               </select>
             </form>
             <br>
-            <div id="txtHint"><b>
-            	
-            	<?php   while($row= mysql_fetch_assoc($result)){?>
-			<table >
-			
-			<thead>
-			<tr>
-				<th class="text-left"><?php echo $row['name'] ?></th>
-				<th></th>
-			</tr>
-			</thead>
-				<tbody class="table-hover">
-				<tr>
-				<td class="text-left">
-					<?php
-					$out=$row['time'];
-					$output=explode("其他戲院",$out);
-					echo "<img src= '". $row['picture'] . "' style='height:200px;'/>"; ?>
-					<!--<?php echo $row['picture'] ?>-->
-					</td>
-				<td class="text-left"><p><?php echo $output[0] ?>
-				      </p></td>
-				</tr>
-				
-				</tbody>
-				
-				</table>
-		<?php }?>
-            	
-            	
-            	
-            </b></div>
+            <div id="txtHint"><b></b></div>
 				
 				
 				

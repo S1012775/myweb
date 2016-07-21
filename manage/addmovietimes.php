@@ -1,44 +1,7 @@
 <?php
-require ("../php/config.php");
 
-$commandText = <<<SqlQuery
-select id, name, time,picture,filmtime,updatetime,updatetype,
-  (select count(*) from movietimes where id = movietimes.id) 
-  from movietimes
-SqlQuery;
-$result = mysql_query ( $commandText, $link );
-if (isset($_POST["insertmovie"])){
-$name=$_POST['name'];
-$time=$_POST['time'];
-$filmtime=$_POST['filmtime'];
-$picture=$_POST['picture'];
-$updatetime=$_POST['updatetime'];
-if($_POST['name']!="" && $_POST['time']!=""&& $_POST['filmtime']!=""&& $_POST['picture']!=""&& $_POST['updatetime']!=""){
-    
-mysql_query("insert into movietimes (name, time,filmtime, picture,updatetime,updatetype)value('$name','$time','$filmtime','$picture','$updatetime','手動更新')",$link);
-echo "<script>alert('資料送出');</script>";
-}
- else {
- 	echo "<script>alert('不可有空白');</script>";
- 		}
-}
-
-if (isset($_POST["modifymovie"])){
-$modifyid=$_POST['modifyid'];
-$modifyname=$_POST['modifyname'];
-$modifytime=$_POST['modifytime'];
-$modifyfilmtime=$_POST['modifyfilmtime'];
-$modifypicture=$_POST['modifypicture'];
-$modifyupdatetime=$_POST['modifyupdatetime'];
-if($_POST['modifyid']!="" ){
-   mysql_query("UPDATE movietimes SET name='$modifyname' , time='$modifytime',filmtime='$modifyfilmtime' ,picture='$modifypicture', updatetime='$modifyupdatetime' , updatetype='已修改' WHERE id='$modifyid' ",$link);
-echo "<script>alert('資料送出');</script>";
-}
- else {
- 	echo "<script>alert('ID編號不可空白');</script>";
- 		}
-}
-
+addmovietimes();
+sqlmovietimes();
 
 ?>
 <!DOCTYPE html>

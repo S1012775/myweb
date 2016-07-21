@@ -1,43 +1,6 @@
 <?php
-require ("../php/config.php");
-
-$commandText = <<<SqlQuery
-select id, name, enname, picture,updatetime,updatetype
-  (select count(*) from movies where id = movies.id) 
-  from movies 
-SqlQuery;
-$result = mysql_query ( $commandText, $link );
-if (isset($_POST["insertmovie"])){
-$name=$_POST['name'];
-$enname=$_POST['enname'];
-$picture=$_POST['picture'];
-$updatetime=$_POST['updatetime'];
-if($_POST['name']!="" && $_POST['enname']!=""&& $_POST['picture']!=""&& $_POST['updatetime']!=""){
-    
-mysql_query("insert into movies (name, enname, picture,updatetime,updatetype)value('$name','$enname','$picture','$updatetime','手動更新')",$link);
-echo "<script>alert('資料送出');</script>";
-}
- else {
- 	echo "<script>alert('不可有空白');</script>";
- 		}
-}
-
-if (isset($_POST["modifymovie"])){
-$modifyid=$_POST['modifyid'];
-$modifyname=$_POST['modifyname'];
-$modifyenname=$_POST['modifyenname'];
-$modifypicture=$_POST['modifypicture'];
-$modifyupdatetime=$_POST['modifyupdatetime'];
-if($_POST['modifyid']!="" ){
-   mysql_query("UPDATE movies SET name='$modifyname' , enname='$modifyenname', picture='$modifypicture', updatetime='$modifyupdatetime' , updatetype='已修改' WHERE id='$modifyid' ",$link);
-echo "<script>alert('資料送出');</script>";
-}
- else {
- 	echo "<script>alert('ID編號不可空白');</script>";
- 		}
-}
-
-
+addmovie();
+sqlmovie();
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,16 +1,27 @@
 <?php
+
+header("content-type: text/html; charset=utf-8");
+//從資料庫顯示
+function selectmoive(){
 require ("config.php");
-
-
-$commandText = <<<SqlQuery
+$resultmoive = <<<SqlQuery
 select id, name, enname, picture,updatetime,updatetype,
   (select count(*) from movies where id = movies.id) 
   from movies
 SqlQuery;
 
-$result = mysql_query ( $commandText, $link );
+$selectmoive = mysql_query ( $resultmoive, $link );
+    while($row= mysql_fetch_assoc($selectmoive)){
+        $showpicture="<img src= '". $row['picture'] . "' style='height:400px;'/>";
+        $showname=$row['name'];
+        $shoeenname=$row['enname'];
+        $arraymoive[]= array("$showpicture","$showname","$shoeenname") ;
+    }
+    return $arraymoive;
+}
 
-header("content-type: text/html; charset=utf-8");
+//xpath網頁內容 在寫進資料庫
+function grabmoive(){
 
 // 1. 初始設定
 $ch = curl_init();
@@ -53,5 +64,5 @@ if($getdate== $showdate['updatetime']){
  }
 				
  }
-		 
+}	 
 ?>

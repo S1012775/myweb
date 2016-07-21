@@ -1,12 +1,8 @@
 <?php
- session_start();
-require ("../php/config.php");
-$commandText = <<<SqlQuery
-select id, name, enname, picture,updatetime,updatetype,
-  (select count(*) from movies where id = movies.id) 
-  from movies
-SqlQuery;
-$lastresult = mysql_query ( $commandText, $link );
+session_start();
+require ("manageadd.php");
+require ("showmanege.php");
+$findmovie=findmovie();
 
 
 if (!isset($_SESSION["username"])){
@@ -38,7 +34,7 @@ if (!isset($_SESSION["username"])){
         
         <div class="col-md-12 ">
             
-			<?php include '../manage/addmovie.php';?>
+			<?php require ("addmovie.php");?>
 			</div >
        
         
@@ -57,19 +53,19 @@ if (!isset($_SESSION["username"])){
             
             </tr>
             </thead>
-            <?php   while($row= mysql_fetch_assoc($lastresult)){
-            $user_id=$row['id'];
+            <?php   
+            foreach ($findmovie as $value){
             ?>
             <tbody class="table-hover">
             <tr>
-            <td class="text-left" name="id"><?php echo $user_id ?></td>
+            <td class="text-left" name="id"><?php echo $value[0] ?></td>
             
-            <td class="text-left"><?php echo "<img src= '". $row['picture'] . "' style='height:200px;'/>" ?></td>
-            <td class="text-left"><?php echo $row['name'] ?></td>
-             <td class="text-left"><?php echo $row['enname'] ?></td>
-             <td class="text-left"><?php echo $row['updatetime'] ?></td>
-             <td class="text-left"><?php echo $row['updatetype'] ?></td>
-            <td class="text-left"> <a href="delmovie.php?del=<?php echo $user_id ?>"><button class="delbutton" >Delete</button></a></td>
+            <td class="text-left"><?php echo $value[1]?></td>
+            <td class="text-left"><?php echo $value[2] ?></td>
+            <td class="text-left"><?php echo $value[3]?></td>
+            <td class="text-left"><?php echo $value[4]?></td>
+            <td class="text-left"><?php echo $value[5] ?></td>
+            <td class="text-left"> <a href="delmovie.php?del=<?php echo $value[0] ?>"><button class="delbutton" >Delete</button></a></td>
             </tr>
             
             </tbody>

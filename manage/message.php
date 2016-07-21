@@ -1,12 +1,8 @@
 <?php
 session_start();
-require ("../php/config.php");
-$commandText = <<<SqlQuery
-select id,mesname,mesemail,messubject,mescontent,
-  (select count(*) from message where id = message.id) 
-  from message
-SqlQuery;
-$result = mysql_query ( $commandText, $link );
+require ("manageadd.php");
+require ("showmanege.php");
+$findmessage=findmessage();
 
  
 if (!isset($_SESSION["userName"])){
@@ -49,17 +45,17 @@ if (!isset($_SESSION["userName"])){
             
             </tr>
             </thead>
-            <?php   while($row= mysql_fetch_assoc($result)){
-            $user_id=$row['id'];
+            <?php  
+            foreach ($findmessage as $value){
             ?>
             <tbody class="table-hover">
             <tr>
-            <td class="text-left" name="id"><?php echo $user_id ?></td>
-            <td class="text-left"><?php echo $row['mesname'] ?></td>
-            <td class="text-left"><?php echo $row['mesemail'] ?></td>
-            <td class="text-left"><?php echo $row['messubject'] ?></td>
-            <td class="text-left"><?php echo $row['mescontent'] ?></td>
-            <td class="text-left"> <a href="delmessage.php?del=<?php echo $user_id ?>"><button class="delbutton" >Delete</button></a></td>
+            <td class="text-left" name="id"><?php echo $value[0] ?></td>
+            <td class="text-left"><?php echo $value[1] ?></td>
+            <td class="text-left"><?php echo $value[2] ?></td>
+            <td class="text-left"><?php echo $value[3]?></td>
+            <td class="text-left"><?php echo $value[4]?></td>
+            <td class="text-left"> <a href="delmessage.php?del=<?php echo $value[0] ?>"><button class="delbutton" >Delete</button></a></td>
             </tr>
             
             </tbody>

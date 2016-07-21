@@ -1,6 +1,6 @@
 <?php
 header("content-type: text/html; charset=utf-8");   
-
+//將聯絡我們謝進資料庫
 function  indexMessage(){
     require ("config.php");
 $selectmessage = <<<SqlQuery
@@ -26,7 +26,7 @@ echo "<script>alert('資料送出');</script>";
 
     
 }
-
+//從資料庫顯示
 function selectindex(){
     require ("config.php");
     $resultPhoto = <<<SqlQuery
@@ -41,7 +41,7 @@ SqlQuery;
         }
         return $arrayphoto;
 }
-
+//xpath網頁內容 在寫進資料庫
 function indexSlide(){
     // 1. 初始設定
 $ch = curl_init();
@@ -74,10 +74,8 @@ if($getdate== $showdate['updatetime']){
 		$title = $xpath->query("./div[1]/span/a/img/@src", $entry)->item(0)->nodeValue;
 		$sql= "INSERT INTO indexPhoto (photo,updatetime) VALUES ('$title','$getdate')";
 		$insert = mysql_query ( $sql, $link ); 
-					
-		// echo "<img src= '". $title->item(0)->nodeValue . "'class='responsive' style='height:350px;'/>";
-				}
-}
+		}
+    }
 }
 
 ?>  

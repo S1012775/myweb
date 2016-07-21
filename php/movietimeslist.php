@@ -1,17 +1,24 @@
 <?php
+header("content-type: text/html; charset=utf-8");
+//從資料庫顯示
+function selectmoivetimes(){
 require ("config.php");
-
-
-$commandText = <<<SqlQuery
+$resultmoivetimes = <<<SqlQuery
 select id, name, time,picture,filmtime,updatetime,
   (select count(*) from movietimes where id = movietimes.id) 
   from movietimes
 SqlQuery;
 
-$result = mysql_query ( $commandText, $link );
-
-header("content-type: text/html; charset=utf-8");
-
+$selectmovietimes = mysql_query ( $resultmoivetimes, $link );
+	while($row= mysql_fetch_assoc($selectmovietimes)){
+		$showid=$row['id'];
+		$showname=$row['name'];
+		$arraymovietimes[]=array("$showid","$showname");
+	}
+	return $arraymovietimes;
+}
+//xpath網頁內容 在寫進資料庫
+function grabmoivetimes(){
 // 1. 初始設定
 $ch = curl_init();
 // 2. 設定 / 調整參數
@@ -47,5 +54,6 @@ if($getdate== $showdate['updatetime']){
 		$insert = mysql_query ( $sql, $link );
 				}
 				
- }//
+ }
+}
 ?>

@@ -1,12 +1,9 @@
 <?php
 session_start();
-require ("../php/config.php");
-$commandText = <<<SqlQuery
-select id, name, time,picture,filmtime,updatetime,updatetype,
-  (select count(*) from movietimes where id = movietimes.id) 
-  from movietimes
-SqlQuery;
-$lastresult = mysql_query ( $commandText, $link );
+require ("manageadd.php");
+require ("showmanege.php");
+$findmovietimes=findmovietimes();
+
 
 
 if (!isset($_SESSION["username"])){
@@ -38,8 +35,7 @@ if (!isset($_SESSION["username"])){
         
         <div class="col-md-12 ">
             
-			<?php include '../manage/addmovietimes.php';?>
-			</div >
+		<?php	require ("addmovietimes.php");?>			</div >
         
         <table class="table table-inverse">
               
@@ -57,21 +53,19 @@ if (!isset($_SESSION["username"])){
             
             </tr>
             </thead>
-            <?php   while($row= mysql_fetch_assoc($lastresult)){
-            $user_id=$row['id'];
-            $out=$row['time'];
-	        $output=explode("其他戲院",$out);
+            <?php   
+            foreach ($findmovietimes as $value){
             ?>
             <tbody class="table-hover">
             <tr>
-            <td class="text-left" name="id"><?php echo $user_id ?></td>
-            <td class="text-left"><?php echo "<img src= '". $row['picture'] . "' style='height:200px;'/>" ?></td>
-            <td class="text-left"><?php echo $row['name'] ?></td>
-            <td class="text-left"><?php echo $output[0] ?></td>
-            <td class="text-left"><?php echo $row['filmtime'] ?></td>
-            <td class="text-left"><?php echo $row['updatetime'] ?></td>
-            <td class="text-left"><?php echo $row['updatetype'] ?></td>
-            <td class="text-left"> <a href="delmovie.php?del=<?php echo $user_id ?>"><button class="delbutton" >Delete</button></a></td>
+            <td class="text-left" name="id"><?php echo $value[0] ?></td>
+            <td class="text-left"><?php echo $value[1] ?></td>
+            <td class="text-left"><?php echo $value[2] ?></td>
+            <td class="text-left"><?php echo $value[3] ?></td>
+            <td class="text-left"><?php echo $value[4] ?></td>
+            <td class="text-left"><?php echo $value[5] ?></td>
+            <td class="text-left"><?php echo $value[6] ?></td>
+            <td class="text-left"> <a href="delmovie.php?del=<?php echo $value[0] ?>"><button class="delbutton" >Delete</button></a></td>
             </tr>
             
             </tbody>
