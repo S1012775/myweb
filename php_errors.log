@@ -1,0 +1,923 @@
+[21-Jul-2016 09:28:38 UTC] PHP Warning:  Missing argument 1 for HomeController::index() in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php on line 7
+[21-Jul-2016 09:28:38 UTC] PHP Stack trace:
+[21-Jul-2016 09:28:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:28:38 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:28:38 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:38 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:38 UTC] PHP Warning:  require(../myweb/php/indexSM.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 2
+[21-Jul-2016 09:28:38 UTC] PHP Stack trace:
+[21-Jul-2016 09:28:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:28:38 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:28:38 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:38 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:38 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:10
+[21-Jul-2016 09:28:38 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:28:38 UTC] PHP Fatal error:  require(): Failed opening required '../myweb/php/indexSM.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 2
+[21-Jul-2016 09:28:38 UTC] PHP Stack trace:
+[21-Jul-2016 09:28:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:28:38 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:28:38 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:38 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:38 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:10
+[21-Jul-2016 09:28:38 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:28:58 UTC] PHP Warning:  Missing argument 1 for HomeController::index() in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php on line 5
+[21-Jul-2016 09:28:58 UTC] PHP Stack trace:
+[21-Jul-2016 09:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:28:58 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:28:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:58 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:58 UTC] PHP Warning:  require(../myweb/php/indexSM.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 2
+[21-Jul-2016 09:28:58 UTC] PHP Stack trace:
+[21-Jul-2016 09:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:28:58 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:28:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:58 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:58 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:28:58 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:28:58 UTC] PHP Fatal error:  require(): Failed opening required '../myweb/php/indexSM.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 2
+[21-Jul-2016 09:28:58 UTC] PHP Stack trace:
+[21-Jul-2016 09:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:28:58 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:28:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:58 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:28:58 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:28:58 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:29:25 UTC] PHP Warning:  require(../myweb/php/indexSM.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 2
+[21-Jul-2016 09:29:25 UTC] PHP Stack trace:
+[21-Jul-2016 09:29:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:29:25 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:29:25 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:29:25 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:29:25 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:29:25 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:29:25 UTC] PHP Fatal error:  require(): Failed opening required '../myweb/php/indexSM.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 2
+[21-Jul-2016 09:29:25 UTC] PHP Stack trace:
+[21-Jul-2016 09:29:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:29:25 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:29:25 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:29:25 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:29:25 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:29:25 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:29:53 UTC] PHP Fatal error:  Call to undefined function selectindex() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 4
+[21-Jul-2016 09:29:53 UTC] PHP Stack trace:
+[21-Jul-2016 09:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:29:53 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:29:53 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:29:53 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:29:53 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:29:53 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:30:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[21-Jul-2016 09:30:05 UTC] PHP Stack trace:
+[21-Jul-2016 09:30:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:30:05 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:30:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:30:05 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:30:05 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:30:05 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:30:05 UTC] PHP Warning:  include(php/tickets.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:30:05 UTC] PHP Stack trace:
+[21-Jul-2016 09:30:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:30:05 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:30:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:30:05 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:30:05 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:30:05 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:30:05 UTC] PHP Warning:  include(): Failed opening 'php/tickets.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:30:05 UTC] PHP Stack trace:
+[21-Jul-2016 09:30:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:30:05 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:30:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:30:05 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:30:05 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:30:05 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:33:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[21-Jul-2016 09:33:12 UTC] PHP Stack trace:
+[21-Jul-2016 09:33:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:33:12 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:33:12 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:33:12 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:33:12 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:33:12 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:33:12 UTC] PHP Warning:  include(php/tickets.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:33:12 UTC] PHP Stack trace:
+[21-Jul-2016 09:33:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:33:12 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:33:12 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:33:12 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:33:12 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:33:12 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:33:12 UTC] PHP Warning:  include(): Failed opening 'php/tickets.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:33:12 UTC] PHP Stack trace:
+[21-Jul-2016 09:33:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:33:12 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:33:12 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:33:12 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:33:12 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:33:12 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[21-Jul-2016 09:34:05 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:05 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:05 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:05 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:05 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:05 UTC] PHP Warning:  include(php/tickets.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:34:05 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:05 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:05 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:05 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:05 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:05 UTC] PHP Warning:  include(): Failed opening 'php/tickets.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:34:05 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:05 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:05 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:05 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:05 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[21-Jul-2016 09:34:06 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:06 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:06 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:06 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:06 UTC] PHP Warning:  include(php/tickets.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:34:06 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:06 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:06 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:06 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:06 UTC] PHP Warning:  include(): Failed opening 'php/tickets.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:34:06 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:06 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:06 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:06 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[21-Jul-2016 09:34:37 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:37 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:37 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:37 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:37 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:37 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:37 UTC] PHP Warning:  include(php/tickets.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:34:37 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:37 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:37 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:37 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:37 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:37 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:34:37 UTC] PHP Warning:  include(): Failed opening 'php/tickets.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 120
+[21-Jul-2016 09:34:37 UTC] PHP Stack trace:
+[21-Jul-2016 09:34:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:34:37 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:34:37 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:37 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:34:37 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:34:37 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:35:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 79
+[21-Jul-2016 09:35:45 UTC] PHP Stack trace:
+[21-Jul-2016 09:35:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:35:45 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:35:45 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:35:45 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:35:45 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[21-Jul-2016 09:39:19 UTC] PHP Warning:  require(../myweb/php/movielist.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 2
+[21-Jul-2016 09:39:19 UTC] PHP Stack trace:
+[21-Jul-2016 09:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:39:19 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:39:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:39:19 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:39:19 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[21-Jul-2016 09:39:19 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:39:19 UTC] PHP Fatal error:  require(): Failed opening required '../myweb/php/movielist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 2
+[21-Jul-2016 09:39:19 UTC] PHP Stack trace:
+[21-Jul-2016 09:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:39:19 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:39:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:39:19 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:39:19 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[21-Jul-2016 09:39:19 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:39:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 85
+[21-Jul-2016 09:39:32 UTC] PHP Stack trace:
+[21-Jul-2016 09:39:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:39:32 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:39:32 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:39:32 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:39:32 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[21-Jul-2016 09:39:32 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:40:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 85
+[21-Jul-2016 09:40:35 UTC] PHP Stack trace:
+[21-Jul-2016 09:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:40:35 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:40:35 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:40:35 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:40:35 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[21-Jul-2016 09:40:35 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:41:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 85
+[21-Jul-2016 09:41:40 UTC] PHP Stack trace:
+[21-Jul-2016 09:41:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:41:40 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:41:40 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:41:40 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:41:40 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[21-Jul-2016 09:41:40 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:42:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 85
+[21-Jul-2016 09:42:15 UTC] PHP Stack trace:
+[21-Jul-2016 09:42:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:42:15 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:42:15 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:42:15 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:42:15 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[21-Jul-2016 09:42:15 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:42:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 85
+[21-Jul-2016 09:42:41 UTC] PHP Stack trace:
+[21-Jul-2016 09:42:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:42:41 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:42:41 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:42:41 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:42:41 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[21-Jul-2016 09:42:41 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[21-Jul-2016 09:44:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 85
+[21-Jul-2016 09:44:43 UTC] PHP Stack trace:
+[21-Jul-2016 09:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[21-Jul-2016 09:44:43 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[21-Jul-2016 09:44:43 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:44:43 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[21-Jul-2016 09:44:43 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[21-Jul-2016 09:44:43 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 01:11:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movietimes.php on line 86
+[22-Jul-2016 01:11:17 UTC] PHP Stack trace:
+[22-Jul-2016 01:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 01:11:17 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 01:11:17 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 01:11:17 UTC] PHP   4. HomeController->movietimes() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 01:11:17 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:15
+[22-Jul-2016 01:11:17 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 01:17:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movietimes.php on line 86
+[22-Jul-2016 01:17:43 UTC] PHP Stack trace:
+[22-Jul-2016 01:17:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 01:17:43 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 01:17:43 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 01:17:43 UTC] PHP   4. HomeController->movietimes() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 01:17:43 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:15
+[22-Jul-2016 01:17:43 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 01:21:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movietimes.php on line 86
+[22-Jul-2016 01:21:41 UTC] PHP Stack trace:
+[22-Jul-2016 01:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 01:21:41 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 01:21:41 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 01:21:41 UTC] PHP   4. HomeController->movietimes() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 01:21:41 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:15
+[22-Jul-2016 01:21:41 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 02:03:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movietimes.php on line 86
+[22-Jul-2016 02:03:16 UTC] PHP Stack trace:
+[22-Jul-2016 02:03:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:03:16 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:03:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:03:16 UTC] PHP   4. HomeController->movietimes() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:03:16 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:15
+[22-Jul-2016 02:03:16 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 02:18:13 UTC] PHP Warning:  require_once(../EasyMVC/models/indexMessage.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:18:13 UTC] PHP Stack trace:
+[22-Jul-2016 02:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:18:13 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:18:13 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:18:13 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:18:13 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:18:13 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/indexMessage.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:18:13 UTC] PHP Stack trace:
+[22-Jul-2016 02:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:18:13 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:18:13 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:18:13 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:18:13 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:18:48 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:18:48 UTC] PHP Stack trace:
+[22-Jul-2016 02:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:18:48 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:18:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:18:48 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:18:48 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:18:48 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:18:48 UTC] PHP Stack trace:
+[22-Jul-2016 02:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:18:48 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:18:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:18:48 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:18:48 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:19:41 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:19:41 UTC] PHP Stack trace:
+[22-Jul-2016 02:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:19:41 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:19:41 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:19:41 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:19:41 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:19:41 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:19:41 UTC] PHP Stack trace:
+[22-Jul-2016 02:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:19:41 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:19:41 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:19:41 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:19:41 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:24:23 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:24:23 UTC] PHP Stack trace:
+[22-Jul-2016 02:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:24:23 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:24:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:24:23 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:24:23 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:24:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:24:23 UTC] PHP Stack trace:
+[22-Jul-2016 02:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:24:23 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:24:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:24:23 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:24:23 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:26:45 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:26:45 UTC] PHP Stack trace:
+[22-Jul-2016 02:26:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:26:45 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:26:45 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:26:45 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:26:45 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:26:45 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:26:45 UTC] PHP Stack trace:
+[22-Jul-2016 02:26:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:26:45 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:26:45 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:26:45 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:26:45 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:27:14 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:27:14 UTC] PHP Stack trace:
+[22-Jul-2016 02:27:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:27:14 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:27:14 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:27:14 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:27:14 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:27:14 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:27:14 UTC] PHP Stack trace:
+[22-Jul-2016 02:27:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:27:14 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:27:14 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:27:14 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:27:14 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:36:09 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:36:09 UTC] PHP Stack trace:
+[22-Jul-2016 02:36:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:36:09 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:36:09 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:36:09 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:36:09 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:36:09 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:36:09 UTC] PHP Stack trace:
+[22-Jul-2016 02:36:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:36:09 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:36:09 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:36:09 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:36:09 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:40:55 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:40:55 UTC] PHP Stack trace:
+[22-Jul-2016 02:40:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:40:55 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:40:55 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:40:55 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:40:55 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:40:55 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:40:55 UTC] PHP Stack trace:
+[22-Jul-2016 02:40:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:40:55 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:40:55 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:40:55 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:40:55 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:43:10 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:43:10 UTC] PHP Stack trace:
+[22-Jul-2016 02:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:43:10 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:43:10 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:43:10 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:43:10 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:43:10 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:43:10 UTC] PHP Stack trace:
+[22-Jul-2016 02:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:43:10 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:43:10 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:43:10 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:43:10 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:44:06 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:44:06 UTC] PHP Stack trace:
+[22-Jul-2016 02:44:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:44:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:44:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:44:06 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:44:06 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:44:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:44:06 UTC] PHP Stack trace:
+[22-Jul-2016 02:44:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:44:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:44:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:44:06 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:44:06 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:48:07 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:48:07 UTC] PHP Stack trace:
+[22-Jul-2016 02:48:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:48:07 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:48:07 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:48:07 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:48:07 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:48:07 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:48:07 UTC] PHP Stack trace:
+[22-Jul-2016 02:48:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:48:07 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:48:07 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:48:07 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:48:07 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:54:36 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:54:36 UTC] PHP Stack trace:
+[22-Jul-2016 02:54:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:54:36 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:54:36 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:54:36 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:54:36 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 02:54:36 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 02:54:36 UTC] PHP Stack trace:
+[22-Jul-2016 02:54:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 02:54:36 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 02:54:36 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:54:36 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 02:54:36 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 03:02:41 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 03:02:41 UTC] PHP Stack trace:
+[22-Jul-2016 03:02:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:02:41 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:02:41 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:02:41 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:02:41 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 03:02:41 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 03:02:41 UTC] PHP Stack trace:
+[22-Jul-2016 03:02:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:02:41 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:02:41 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:02:41 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:02:41 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 03:14:34 UTC] PHP Warning:  require_once(../EasyMVC/models/message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 03:14:34 UTC] PHP Stack trace:
+[22-Jul-2016 03:14:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:14:34 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:14:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:14:34 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:14:34 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 03:14:34 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/message.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 03:14:34 UTC] PHP Stack trace:
+[22-Jul-2016 03:14:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:14:34 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:14:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:14:34 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:14:34 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:6
+[22-Jul-2016 03:34:13 UTC] PHP Warning:  Missing argument 1 for index::indexMessage(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php on line 12 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 4
+[22-Jul-2016 03:34:13 UTC] PHP Stack trace:
+[22-Jul-2016 03:34:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:34:13 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:34:13 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:34:13 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:34:13 UTC] PHP   5. index->indexMessage() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:12
+[22-Jul-2016 03:34:13 UTC] PHP Warning:  mysql_connect(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 6
+[22-Jul-2016 03:34:13 UTC] PHP Stack trace:
+[22-Jul-2016 03:34:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:34:13 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:34:13 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:34:13 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:34:13 UTC] PHP   5. index->indexMessage() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:12
+[22-Jul-2016 03:34:13 UTC] PHP   6. mysql_connect() /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php:6
+[22-Jul-2016 03:35:04 UTC] PHP Fatal error:  Class 'config' not found in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 6
+[22-Jul-2016 03:35:04 UTC] PHP Stack trace:
+[22-Jul-2016 03:35:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:35:04 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:35:04 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:35:04 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:35:04 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:13
+[22-Jul-2016 03:40:31 UTC] PHP Fatal error:  Class 'config' not found in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 6
+[22-Jul-2016 03:40:31 UTC] PHP Stack trace:
+[22-Jul-2016 03:40:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:40:31 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:40:31 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:40:31 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:40:31 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:12
+[22-Jul-2016 03:40:40 UTC] PHP Fatal error:  Class 'config' not found in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 6
+[22-Jul-2016 03:40:40 UTC] PHP Stack trace:
+[22-Jul-2016 03:40:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:40:40 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:40:40 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:40:40 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:40:40 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:12
+[22-Jul-2016 03:40:51 UTC] PHP Fatal error:  Class 'config' not found in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 6
+[22-Jul-2016 03:40:51 UTC] PHP Stack trace:
+[22-Jul-2016 03:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:40:51 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:40:51 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:40:51 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:40:51 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:12
+[22-Jul-2016 03:40:57 UTC] PHP Fatal error:  Class 'config' not found in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 6
+[22-Jul-2016 03:40:57 UTC] PHP Stack trace:
+[22-Jul-2016 03:40:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:40:57 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:40:57 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:40:57 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:40:57 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:12
+[22-Jul-2016 03:44:28 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/EasyMVC/EasyMVC/models/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 03:44:28 UTC] PHP Stack trace:
+[22-Jul-2016 03:44:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:44:28 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:44:28 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:44:28 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:44:28 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:12
+[22-Jul-2016 03:44:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/EasyMVC/EasyMVC/models/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 03:44:28 UTC] PHP Stack trace:
+[22-Jul-2016 03:44:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:44:28 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:44:28 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:44:28 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:44:28 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:12
+[22-Jul-2016 03:44:50 UTC] PHP Fatal error:  Call to a member function indexMessage() on a non-object in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php on line 14
+[22-Jul-2016 03:44:50 UTC] PHP Stack trace:
+[22-Jul-2016 03:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:44:50 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:44:50 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:44:50 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:46:06 UTC] PHP Fatal error:  Call to a member function indexMessage() on a non-object in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php on line 14
+[22-Jul-2016 03:46:06 UTC] PHP Stack trace:
+[22-Jul-2016 03:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:46:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:46:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:46:06 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:46:53 UTC] PHP Fatal error:  Call to a member function indexMessage() on a non-object in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php on line 14
+[22-Jul-2016 03:46:53 UTC] PHP Stack trace:
+[22-Jul-2016 03:46:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 03:46:53 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 03:46:53 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 03:46:53 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:02:19 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 23
+[22-Jul-2016 04:02:19 UTC] PHP Stack trace:
+[22-Jul-2016 04:02:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:02:19 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:02:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:02:19 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:02:19 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:11
+[22-Jul-2016 04:09:32 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 25
+[22-Jul-2016 04:09:32 UTC] PHP Stack trace:
+[22-Jul-2016 04:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:09:32 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:09:32 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:09:32 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:09:32 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:11
+[22-Jul-2016 04:10:03 UTC] PHP Parse error:  syntax error, unexpected '資料送出' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 24
+[22-Jul-2016 04:10:03 UTC] PHP Stack trace:
+[22-Jul-2016 04:10:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:10:03 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:10:03 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:10:03 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:10:03 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:11
+[22-Jul-2016 04:10:14 UTC] PHP Parse error:  syntax error, unexpected '資料送出' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 24
+[22-Jul-2016 04:10:14 UTC] PHP Stack trace:
+[22-Jul-2016 04:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:10:14 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:10:14 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:10:14 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:10:14 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:11
+[22-Jul-2016 04:13:03 UTC] PHP Parse error:  syntax error, unexpected '不可有空格或空白' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 31
+[22-Jul-2016 04:13:03 UTC] PHP Stack trace:
+[22-Jul-2016 04:13:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:13:03 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:13:03 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:13:03 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:13:03 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:11
+[22-Jul-2016 04:16:42 UTC] PHP Parse error:  syntax error, unexpected '不可有空格或空白' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 31
+[22-Jul-2016 04:16:42 UTC] PHP Stack trace:
+[22-Jul-2016 04:16:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:16:42 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:16:42 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:16:42 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:16:42 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:11
+[22-Jul-2016 04:16:49 UTC] PHP Parse error:  syntax error, unexpected '不可有空格或空白' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 31
+[22-Jul-2016 04:16:49 UTC] PHP Stack trace:
+[22-Jul-2016 04:16:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:16:49 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:16:49 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:16:49 UTC] PHP   4. HomeController->message() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:16:49 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:11
+[22-Jul-2016 04:24:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 187
+[22-Jul-2016 04:24:06 UTC] PHP Stack trace:
+[22-Jul-2016 04:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:24:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:24:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:24:06 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:24:06 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 04:24:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 04:24:37 UTC] PHP Stack trace:
+[22-Jul-2016 04:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:24:37 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:24:37 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:24:37 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:24:37 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 04:24:37 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 04:25:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 04:25:38 UTC] PHP Stack trace:
+[22-Jul-2016 04:25:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:25:38 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:25:38 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:25:38 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:25:38 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 04:25:38 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 04:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 04:26:33 UTC] PHP Stack trace:
+[22-Jul-2016 04:26:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:26:33 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:26:33 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:26:33 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:26:33 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 04:26:33 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 04:29:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 04:29:08 UTC] PHP Stack trace:
+[22-Jul-2016 04:29:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:29:08 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:29:08 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:29:08 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:29:08 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 04:29:08 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 04:29:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 04:29:22 UTC] PHP Stack trace:
+[22-Jul-2016 04:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:29:22 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:29:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:29:22 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:29:22 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 04:29:22 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 04:30:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 04:30:09 UTC] PHP Stack trace:
+[22-Jul-2016 04:30:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 04:30:09 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 04:30:09 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:30:09 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 04:30:09 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 04:30:09 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 05:46:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 05:46:34 UTC] PHP Stack trace:
+[22-Jul-2016 05:46:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 05:46:34 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 05:46:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:46:34 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:46:34 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 05:46:34 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 05:47:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 05:47:04 UTC] PHP Stack trace:
+[22-Jul-2016 05:47:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 05:47:04 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 05:47:04 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:47:04 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:47:04 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 05:47:04 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 05:48:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 05:48:03 UTC] PHP Stack trace:
+[22-Jul-2016 05:48:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 05:48:03 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 05:48:03 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:48:03 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:48:03 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 05:48:03 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 05:52:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 05:52:34 UTC] PHP Stack trace:
+[22-Jul-2016 05:52:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 05:52:34 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 05:52:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:52:34 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:52:34 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 05:52:34 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 05:52:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php:72) in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 2
+[22-Jul-2016 05:52:34 UTC] PHP Stack trace:
+[22-Jul-2016 05:52:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 05:52:34 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 05:52:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:52:34 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:52:34 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[22-Jul-2016 05:52:34 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:5
+[22-Jul-2016 05:52:34 UTC] PHP   7. header() /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php:2
+[22-Jul-2016 05:55:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 05:55:24 UTC] PHP Stack trace:
+[22-Jul-2016 05:55:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 05:55:24 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 05:55:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:55:24 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:55:24 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 05:55:24 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 05:55:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php:72) in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 2
+[22-Jul-2016 05:55:24 UTC] PHP Stack trace:
+[22-Jul-2016 05:55:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 05:55:24 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 05:55:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:55:24 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:55:24 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:9
+[22-Jul-2016 05:55:24 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:5
+[22-Jul-2016 05:55:24 UTC] PHP   7. header() /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php:2
+[22-Jul-2016 05:55:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 05:55:48 UTC] PHP Stack trace:
+[22-Jul-2016 05:55:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 05:55:48 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 05:55:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:55:48 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 05:55:48 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 05:55:48 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 06:02:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 06:02:57 UTC] PHP Stack trace:
+[22-Jul-2016 06:02:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 06:02:57 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 06:02:57 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:02:57 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:02:57 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 06:02:57 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 06:02:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php:72) in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 2
+[22-Jul-2016 06:02:57 UTC] PHP Stack trace:
+[22-Jul-2016 06:02:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 06:02:57 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 06:02:57 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:02:57 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:02:57 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:9
+[22-Jul-2016 06:02:57 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:5
+[22-Jul-2016 06:02:57 UTC] PHP   7. header() /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php:2
+[22-Jul-2016 06:06:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php on line 72
+[22-Jul-2016 06:06:50 UTC] PHP Stack trace:
+[22-Jul-2016 06:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 06:06:50 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 06:06:50 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:06:50 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:06:50 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:7
+[22-Jul-2016 06:06:50 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 06:06:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/EasyMVC/EasyMVC/views/index.php:72) in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php on line 2
+[22-Jul-2016 06:06:50 UTC] PHP Stack trace:
+[22-Jul-2016 06:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 06:06:50 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 06:06:50 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:06:50 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:06:50 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:9
+[22-Jul-2016 06:06:50 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:5
+[22-Jul-2016 06:06:50 UTC] PHP   7. header() /home/ubuntu/workspace/EasyMVC/EasyMVC/models/index.php:2
+[22-Jul-2016 06:06:50 UTC] PHP Fatal error:  Call to a member function selectindex() on a non-object in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php on line 12
+[22-Jul-2016 06:06:50 UTC] PHP Stack trace:
+[22-Jul-2016 06:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 06:06:50 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 06:06:50 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 06:06:50 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:28:18 UTC] PHP Fatal error:  Call to a member function view() on a non-object in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php on line 13
+[22-Jul-2016 07:28:18 UTC] PHP Stack trace:
+[22-Jul-2016 07:28:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 07:28:18 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 07:28:18 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:28:18 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:06 UTC] PHP Warning:  require_once(../EasyMVC/models/indexslide.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 07:47:06 UTC] PHP Stack trace:
+[22-Jul-2016 07:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 07:47:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 07:47:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:06 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:06 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[22-Jul-2016 07:47:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/indexslide.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 07:47:06 UTC] PHP Stack trace:
+[22-Jul-2016 07:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 07:47:06 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 07:47:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:06 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:06 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[22-Jul-2016 07:47:33 UTC] PHP Warning:  require_once(../EasyMVC/models/indexslide.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 07:47:33 UTC] PHP Stack trace:
+[22-Jul-2016 07:47:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 07:47:33 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 07:47:33 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:33 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:33 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[22-Jul-2016 07:47:33 UTC] PHP Fatal error:  require_once(): Failed opening required '../EasyMVC/models/indexslide.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php on line 5
+[22-Jul-2016 07:47:33 UTC] PHP Stack trace:
+[22-Jul-2016 07:47:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 07:47:33 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 07:47:33 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:33 UTC] PHP   4. HomeController->index() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 07:47:33 UTC] PHP   5. Controller->model() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:8
+[22-Jul-2016 08:32:43 UTC] PHP Warning:  Missing argument 1 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:32:43 UTC] PHP Stack trace:
+[22-Jul-2016 08:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:32:43 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:32:43 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:32:43 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:32:43 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:32:43 UTC] PHP Warning:  Missing argument 2 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:32:43 UTC] PHP Stack trace:
+[22-Jul-2016 08:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:32:43 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:32:43 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:32:43 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:32:43 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:32:43 UTC] PHP Warning:  Missing argument 3 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:32:43 UTC] PHP Stack trace:
+[22-Jul-2016 08:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:32:43 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:32:43 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:32:43 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:32:43 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:32:43 UTC] PHP Warning:  mysql_connect(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 6
+[22-Jul-2016 08:32:43 UTC] PHP Stack trace:
+[22-Jul-2016 08:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:32:43 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:32:43 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:32:43 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:32:43 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:32:43 UTC] PHP   6. mysql_connect() /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php:6
+[22-Jul-2016 08:34:23 UTC] PHP Warning:  Missing argument 1 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:34:23 UTC] PHP Stack trace:
+[22-Jul-2016 08:34:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:34:23 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:34:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:23 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:23 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:34:23 UTC] PHP Warning:  Missing argument 2 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:34:23 UTC] PHP Stack trace:
+[22-Jul-2016 08:34:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:34:23 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:34:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:23 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:23 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:34:23 UTC] PHP Warning:  Missing argument 3 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:34:23 UTC] PHP Stack trace:
+[22-Jul-2016 08:34:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:34:23 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:34:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:23 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:23 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:34:23 UTC] PHP Warning:  mysql_connect(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 6
+[22-Jul-2016 08:34:23 UTC] PHP Stack trace:
+[22-Jul-2016 08:34:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:34:23 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:34:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:23 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:23 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:34:23 UTC] PHP   6. mysql_connect() /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php:6
+[22-Jul-2016 08:34:26 UTC] PHP Warning:  Missing argument 1 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:34:26 UTC] PHP Stack trace:
+[22-Jul-2016 08:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:34:26 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:34:26 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:26 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:26 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:34:26 UTC] PHP Warning:  Missing argument 2 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:34:26 UTC] PHP Stack trace:
+[22-Jul-2016 08:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:34:26 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:34:26 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:26 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:26 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:34:26 UTC] PHP Warning:  Missing argument 3 for loginfun::login(), called in /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php on line 13 and defined in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 5
+[22-Jul-2016 08:34:26 UTC] PHP Stack trace:
+[22-Jul-2016 08:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:34:26 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:34:26 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:26 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:26 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:34:26 UTC] PHP Warning:  mysql_connect(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php on line 6
+[22-Jul-2016 08:34:26 UTC] PHP Stack trace:
+[22-Jul-2016 08:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:34:26 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:34:26 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:26 UTC] PHP   4. LoginController->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:34:26 UTC] PHP   5. loginfun->login() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/LoginController.php:13
+[22-Jul-2016 08:34:26 UTC] PHP   6. mysql_connect() /home/ubuntu/workspace/EasyMVC/EasyMVC/models/loginfun.php:6
+[22-Jul-2016 08:53:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movie.php on line 136
+[22-Jul-2016 08:53:34 UTC] PHP Stack trace:
+[22-Jul-2016 08:53:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:53:34 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:53:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:53:34 UTC] PHP   4. HomeController->movie() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:53:34 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:27
+[22-Jul-2016 08:54:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movietimes.php on line 86
+[22-Jul-2016 08:54:05 UTC] PHP Stack trace:
+[22-Jul-2016 08:54:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:54:05 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:54:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:54:05 UTC] PHP   4. HomeController->movietimes() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:54:05 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:31
+[22-Jul-2016 08:54:05 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
+[22-Jul-2016 08:54:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/EasyMVC/EasyMVC/views/movietimes.php on line 86
+[22-Jul-2016 08:54:48 UTC] PHP Stack trace:
+[22-Jul-2016 08:54:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:0
+[22-Jul-2016 08:54:48 UTC] PHP   2. App->__construct() /home/ubuntu/workspace/EasyMVC/EasyMVC/index.php:6
+[22-Jul-2016 08:54:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18}() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:54:48 UTC] PHP   4. HomeController->movietimes() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/App.php:18
+[22-Jul-2016 08:54:48 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/EasyMVC/EasyMVC/controllers/HomeController.php:31
+[22-Jul-2016 08:54:48 UTC] PHP   6. require_once() /home/ubuntu/workspace/EasyMVC/EasyMVC/core/Controller.php:10
