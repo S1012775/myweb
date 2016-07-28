@@ -24,9 +24,10 @@ class HomeController extends Controller {
         $moiveshow=$this->model("movie");
         $config=$this->model("dbconnect");
         $connection= $config->dbcon();
+        $grab=$moiveshow->grabmoive($connection);
         $show=$moiveshow->selectmoive($connection);
         $this->view("movie",$show);
-        $grab=$moiveshow->grabmoive($connection);
+        
         
     }
     function movietimes(){
@@ -34,10 +35,10 @@ class HomeController extends Controller {
         
         $config=$this->model("dbconnect");
         $connection= $config->dbcon();
-        $show=$moivetimeshow->selectmoivetimes($connection);
-        
-        $this->view("movietimes",$show);
         $grab=$moivetimeshow->grabmoivetimes($connection);
+        $show=$moivetimeshow->selectmoivetimes($connection);
+        $this->view("movietimes",$show);
+        
         
     }
     function get(){

@@ -9,14 +9,20 @@ class ManageController extends Controller {
         $connection= $config->dbcon();
         $show=$movie->findmovie($connection);
         $this->view("managemovie",$show);
-        //新增修改電影
+        //新增電影
         $addmovie = $this->model("manageadd");
         $config=$this->model("dbconnect");
         $connection= $config->dbcon();
         $showaddmovie=$addmovie->addmovie($connection);
-        
-        
+        //修改
+        if(isset($_POST["modifymovie"])){
+        $showaddmovie=$addmovie->modifymovie($connection);
+        if($showaddmovie==true){
+            echo "資料送出";
+        }
+        }
     }
+    
     function managemovietimes(){
         //顯示電影時刻表
         $movietimes = $this->model("showmanage");
@@ -71,6 +77,7 @@ class ManageController extends Controller {
         $delete=$delmovietimes->delmovietimes($connection,$delete_id);
         }
     }
+    
 }
 
 
